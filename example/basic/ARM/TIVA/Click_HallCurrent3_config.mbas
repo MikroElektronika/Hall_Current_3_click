@@ -1,0 +1,8 @@
+module Click_HallCurrent3_config
+
+include Click_HallCurrent3_types
+
+const
+    _HALLCURRENT3_I2C_CFG as uint32_t[1] = (_I2C_BITRATE_STANDARD_MODE)
+    
+end.
